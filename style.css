@@ -1,0 +1,89 @@
+main {
+    margin: 50px;
+    background-color: rgba(244, 255, 210, 0.699);
+    border-color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url(wallpaper001.jpg);
+}
+
+
+
+div.quadrado {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(179, 179, 155);
+}
+
+div#q1 {
+    background-color: aquamarine;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, orange, yellow, red);
+}
+
+div#q3 {
+    background-image: url(pattern003.png);
+
+}
+
+
+
+
+
+
+div.quadrado1 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(179, 179, 155);
+}
+
+div#w1 {
+    background-color: rgb(165, 127, 255);
+}
+
+div#w2 {
+    background-image: linear-gradient(to bottom, rgb(38, 255, 0), rgb(102, 188, 40), rgb(0, 255, 174));
+}
+
+div#w3 {
+    background-image: url(pattern003.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+
+
+
+
+div.bloco{
+    background-image: url(wallpaper003.jpg);
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+div#d1{
+background-position: left top;
+}
+
+div#d2{
+background-position: left center;
+}
+
+div#d3{
+background-position: right bottom;
+}
+
+div#d4{
+background-position: center center;
+}
